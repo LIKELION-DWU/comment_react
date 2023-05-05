@@ -33,6 +33,7 @@ function addTodo() {
             // list안에 addText에서 받아온 값을 넣어줌
             list.innerHTML = addText.value;
 
+
             // result 안에 list 추가하기
             result.appendChild(list);
             // list 안에 del 추가하기
@@ -80,7 +81,6 @@ function addTodo() {
                     icon.style.backgroundColor = "#f0f0f0";
                     click=0;
                 }
-
             })
 
             // 이걸 써줘야 입력창에 적었던 값을 초기화 할 수 있음
