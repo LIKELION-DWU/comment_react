@@ -93,6 +93,6 @@ function addTodo() {
 //할일 목록 삭제시
 function deleteList(e){ //삭제 버튼 클릭시 
     count--;
-    let removeOne = e.target.parentElement;  //선택한 목록 한개만 지우기(부모 객체를 지운다)
+    let removeOne = e.target.parentElement;  
     removeOne.remove();
 }

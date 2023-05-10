@@ -1,46 +1,47 @@
 body {
-    background-color:#DEB887;
+  background-color: #deb887;
 }
 
 @font-face {
-    font-family: 'EF_jejudoldam';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "EF_jejudoldam";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .title {
-    color: #4d2600;
-    font-family: 'EF_jejudoldam';
-    text-align: center;
-    font-size: 65px;
+  color: #4d2600;
+  font-family: "EF_jejudoldam";
+  text-align: center;
+  font-size: 65px;
 }
 
 .container {
-    position: relative;
-    background-color: #4d2600;
-    border-radius: 20px;
-    width: 900px;
-    height: 750px;
-    margin: 0 auto;
+  position: relative;
+  background-color: #4d2600;
+  border-radius: 20px;
+  width: 900px;
+  height: 750px;
+  margin: 0 auto;
 }
 
 .list {
-    font-family: 'EF_jejudoldam';
-    color: white;
-    font-size: 60px;
-    margin-top: -82%;
+  font-family: "EF_jejudoldam";
+  color: white;
+  font-size: 60px;
+  margin-top: -82%;
 }
 
 .listAdd li {
-    width: 670px;
-    height: 50px;
-    list-style: none;  /*기호나 숫자표시 없애기*/ 
-    position: relative;
-    margin-bottom: 9px;
-    text-indent: 15px;   /*들여쓰기*/
-    border-radius: 3px;
-    font-weight: 400;
-    color: black;
-    font-size: 40px;
+  width: 670px;
+  height: 50px;
+  list-style: none; /*기호나 숫자표시 없애기*/
+  position: relative;
+  margin-bottom: 9px;
+  text-indent: 15px; /*들여쓰기*/
+  border-radius: 3px;
+  font-weight: 400;
+  color: black;
+  font-size: 40px;
 }
